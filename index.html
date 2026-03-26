@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="dark" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jean Victor </title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed": "#e0e0ff",
+              "on-primary-container": "#0086b5",
+              "on-tertiary": "#131e8c",
+              "surface-container-lowest": "#060e20",
+              "on-background": "#dae2fd",
+              "tertiary": "#bdc2ff",
+              "surface-container-high": "#222a3d",
+              "tertiary-fixed-dim": "#bdc2ff",
+              "surface-container-highest": "#2d3449",
+              "background": "#0b1326",
+              "on-tertiary-container": "#6873dd",
+              "inverse-surface": "#dae2fd",
+              "on-primary-fixed-variant": "#004c69",
+              "on-secondary-fixed-variant": "#3c475a",
+              "on-secondary-container": "#aeb9d0",
+              "on-secondary": "#263143",
+              "secondary-fixed": "#d8e3fb",
+              "on-surface": "#dae2fd",
+              "surface-variant": "#2d3449",
+              "outline": "#8f9095",
+              "outline-variant": "#45474b",
+              "primary-fixed-dim": "#7bd0ff",
+              "on-error": "#690005",
+              "on-surface-variant": "#c6c6cb",
+              "error": "#ffb4ab",
+              "surface-container": "#171f33",
+              "surface-container-low": "#131b2e",
+              "error-container": "#93000a",
+              "inverse-primary": "#00668a",
+              "secondary": "#bcc7de",
+              "on-primary": "#00354a",
+              "on-tertiary-fixed": "#000767",
+              "inverse-on-surface": "#283044",
+              "tertiary-container": "#000348",
+              "surface-dim": "#0b1326",
+              "surface": "#0b1326",
+              "secondary-fixed-dim": "#bcc7de",
+              "primary-container": "#00131d",
+              "surface-bright": "#31394d",
+              "secondary-container": "#3e495d",
+              "primary-fixed": "#c4e7ff",
+              "on-tertiary-fixed-variant": "#2f3aa3",
+              "on-error-container": "#ffdad6",
+              "primary": "#7bd0ff",
+              "surface-tint": "#7bd0ff",
+              "on-primary-fixed": "#001e2c",
+              "on-secondary-fixed": "#111c2d"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      /* Adicionado Scroll Suave */
+      html {
+        scroll-behavior: smooth;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        background-color: #0b1326;
+        color: #dae2fd;
+      }
+      .glass-card {
+        background: rgba(45, 52, 73, 0.6);
+        backdrop-filter: blur(20px);
+      }
+      .hero-gradient {
+        background: radial-gradient(circle at 50% 50%, rgba(123, 208, 255, 0.1) 0%, rgba(11, 19, 38, 0) 70%);
+      }
+    </style>
+</head>
+<body class="font-body selection:bg-primary/30 selection:text-primary">
+<nav class="fixed top-0 w-full z-50 bg-[#0b1326]/60 backdrop-blur-xl shadow-2xl shadow-black/20">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<span class="text-2xl font-black text-slate-100 uppercase tracking-widest font-headline">Jean Victor </span>
+<div class="hidden md:flex gap-8 items-center font-headline font-bold tracking-tight">
+<a class="text-sky-400 border-b-2 border-sky-400 pb-1" href="#work">Work</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors duration-300 hover:bg-white/5 rounded-lg px-2" href="#about">About</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors duration-300 hover:bg-white/5 rounded-lg px-2" href="#contact">Contact</a>
+</div>
+<a href="https://wa.me/5569984312729?text=Olá%20Jean,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
+    <button class="bg-primary text-on-primary px-6 py-2 rounded-full font-headline font-bold scale-95 active:scale-90 transition-transform hover:brightness-110">
+         Enviar mensagem
+    </button>
+</a>
+</div>
+</nav>
+<main class="relative overflow-hidden">
+<section class="relative min-h-screen flex items-center pt-20 hero-gradient">
+<div class="max-w-7xl mx-auto px-8 w-full grid md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-8">
+<p class="font-label text-primary uppercase tracking-[0.3em] mb-6 text-sm">Jean Victor — Portfolio</p>
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold text-on-background leading-tight mb-8">
+                        Bem-vindo ao <br/>meu site
+                    </h1>
+<div class="flex items-center gap-4">
+<div class="h-px w-12 bg-outline-variant"></div>
+<p class="font-body text-2xl text-on-surface-variant italic">
+                            Sou desenvolvedor iniciante <span class="not-italic">🚀</span>
+</p>
+</div>
+</div>
+<div class="md:col-span-4 relative hidden md:block">
+<div class="aspect-square rounded-full border border-primary/20 absolute -inset-4 animate-pulse"></div>
+<img alt="Developer workspace" class="rounded-xl object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAupBcUzx-JCq8QC93u3n0XOIek0ICGC0SpJ01-4w3SP41QH9-Blqmki1e3HUzNKehKeS_Jb611qBc6ZKhCj7L6UpaydcqypbXwGlPZHAnrjKp2djFy3HdP96FZVz_x5NH4kxVyyUYTntJowcvZ04W7uJzHgL9JXYa0pQL0QPMvL9dD198lEuA3aQuhvVc9CRa10frIgtYMHzn6SrdPUaXffb-m76NMFkGn7h4IWExN5pVLvT-kBLRX2GJWtBXR6xnFfHq_kbGmUTk"/>
+</div>
+</div>
+</section>
+<section class="py-32 bg-surface-container-low" id="about">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid md:grid-cols-2 gap-24 items-start">
+<div class="sticky top-32">
+<h2 class="font-headline text-5xl font-bold text-on-background mb-8">Sobre Mim</h2>
+<div class="w-24 h-2 bg-primary rounded-full"></div>
+</div>
+<div class="space-y-12">
+<p class="font-body text-xl text-on-surface-variant leading-relaxed">
+                            Minha jornada no mundo da tecnologia começou com uma curiosidade insaciável sobre como as coisas funcionam. Atualmente, estou mergulhando fundo no ecossistema de desenvolvimento, focando em construir soluções que unem <span class="text-primary font-bold">funcionalidade técnica</span> com <span class="text-secondary font-bold">elegância visual</span>.
+                        </p>
+<p class="font-body text-xl text-on-surface-variant leading-relaxed">
+                            Como um desenvolvedor iniciante, trato cada linha de código como uma peça de arquitetura digital. Meu aprendizado em programação não é apenas sobre sintaxe, mas sobre resolver problemas complexos com simplicidade e precisão.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 relative overflow-hidden" id="contact">
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="glass-card rounded-[2.5rem] p-12 md:p-24 text-center border border-white/5">
+<span class="font-label text-primary uppercase tracking-[0.4em] text-sm mb-8 block">Vamos colaborar?</span>
+<h2 class="font-headline text-5xl md:text-7xl font-extrabold text-on-background mb-12">Pronto para iniciar <br/>um projeto?</h2>
+<a class="group inline-flex items-center gap-6 bg-surface-container-highest hover:bg-surface-bright px-10 py-6 rounded-full transition-all duration-300" href="mailto:jeanvictor3541@gmail.com">
+<span class="font-headline text-2xl md:text-3xl font-bold text-primary group-hover:text-white transition-colors">jeanvictor3541@gmail.com</span>
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center group-hover:rotate-45 transition-transform">
+<span class="material-symbols-outlined text-on-primary">arrow_forward</span>
+</div>
+</a>
+<div class="mt-20 flex justify-center gap-12 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+<a href="https://www.linkedin.com/in/jean-victor-25530319a/" target="_blank" class="font-label uppercase tracking-widest text-xs hover:text-primary">LinkedIn</a>
+<a href="https://github.com/JeanVictor15" target="_blank" class="font-label uppercase tracking-widest text-xs hover:text-primary">GitHub</a>
+</div>
+</div>
+</div>
+<div class="absolute -bottom-40 -left-40 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute -top-40 -right-40 w-96 h-96 bg-secondary/10 rounded-full blur-[120px]"></div>
+</section>
+</main>
+<footer class="bg-[#131b2e] w-full py-12 px-8 mt-20">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="text-lg font-bold text-slate-200 font-headline uppercase tracking-widest">Portifolio</span>
+<p class="font-label text-sm uppercase tracking-wider text-slate-500">© 2024 Portifolio. Criado com precisão técnica.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-label text-sm uppercase tracking-wider text-slate-500 hover:text-sky-400 underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity transition-all duration-300" href="https://github.com/JeanVictor15" target="_blank">GitHub</a>
+<a class="font-label text-sm uppercase tracking-wider text-slate-500 hover:text-sky-400 underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity transition-all duration-300" href="https://www.linkedin.com/in/jean-victor-25530319a/" target="_blank">LinkedIn</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
